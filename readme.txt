@@ -61,7 +61,7 @@ After content and before content are two options if you need after content then 
 == Arbitrary section ==
 
 
-== A brief Markdown Example ==
+== A brief Of Ework social share Plugin ==
 
 Features that we include in 1st version:
 
