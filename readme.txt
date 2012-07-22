@@ -8,7 +8,7 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Ework Social share plugin is about share posts on the top social site facebook, twitter, linkedin and google plus. Now on this first version we have only provide on these four social buttons. we will update this plugin as you want feedback for our encourage that you will get more easier and save your time.
+Ework Social share plugin is about share posts on the top social site facebook, twitter, linkedin and google plus.
 
 == Description ==
 
@@ -27,7 +27,7 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload `eworkgroup` to the `/wp-content/plugins/` directory
+1. Upload `ework-social-share-plugin` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress. you need to go the settings and Ework social share check as described on description tab.
 1. If you need it on another field you just call `<?php ehco ewsp_add_content();?>` in your templates
 
@@ -43,7 +43,12 @@ After content and before content are two options if you need after content then 
 
 == Screenshots ==
 
-
+1. Enable the buttons.
+2. See the front result of above screenshot.
+3. Selection of position.
+4. See the result of above screenshot.
+5. Selection of share button and they are only display in single page and posts.
+6. See the front result of above screenshot.
 
 == Changelog ==
 
@@ -58,3 +63,25 @@ After content and before content are two options if you need after content then 
 
 == A brief Markdown Example ==
 
+Ordered list:
+
+1. Some feature
+1. Another feature
+1. Something else about the plugin
+
+Unordered list:
+
+* something
+* something else
+* third thing
+
+Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
+Titles are optional, naturally.
+
+[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
+            "Markdown is what the parser uses to process much of the readme file"
+
+Markdown uses email style notation for blockquotes and I've been told:
+> Asterisks for *emphasis*. Double it up  for **strong**.
+
+`<?php code(); // goes in backticks ?>`
