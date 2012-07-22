@@ -63,25 +63,11 @@ After content and before content are two options if you need after content then 
 
 == A brief Markdown Example ==
 
-Ordered list:
+Features that we include in 1st version:
 
-1. Some feature
-1. Another feature
-1. Something else about the plugin
+1. You can select which button you need
+1. You can choose which area you need eg, after title after content, on both and on single page and post.
+1. We will post the enhancement version soon.
 
-Unordered list:
 
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
+`<?php ehco ewsp_add_content(); // if you copy this function anywhere you need it will do the same functionality. ?>`
