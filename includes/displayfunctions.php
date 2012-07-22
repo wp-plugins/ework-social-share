@@ -112,6 +112,8 @@
                         $content_custom .= $extra_content;
                         $content_custom .= $content;
                         $content_custom .= $extra_content;
+                    }else{
+                        $content_custom .= $content;
                     }
                     
                 }else if($ewsp_options['positionsec'] == true){
@@ -134,14 +136,19 @@
                             $content_custom .= $content;
                         }
                         
+                        
                     }else if($ewsp_options['both'] == true){
                         $content_custom .= $extra_content;
+                        $content_custom .= $content;
+                    }
+                    else {
                         $content_custom .= $content;
                     }
                     
                 }else{
                     $content_custom .= $content;
                 }
+                
 	}
         
         //Return content with new content
