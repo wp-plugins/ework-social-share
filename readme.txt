@@ -27,7 +27,7 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload `ework-social-share-plugin` to the `/wp-content/plugins/` directory
+1. Unzip `ework-social-share` zip file and upload to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress. you need to go the settings and Ework social share check as described on description tab.
 1. If you need it on another field you just call `<?php ehco ewsp_add_content();?>` in your templates
 
