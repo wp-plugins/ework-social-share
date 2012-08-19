@@ -12,7 +12,7 @@
         
         $post_Id=$post->ID; 
         $post_detail = get_post($post_Id);
-        $post_link = $post_detail->guid;
+        $post_link = get_permalink($post_Id);
         $title = $post_detail->post_title;
        
         //Share buttons that we display
@@ -25,10 +25,10 @@
 		$extra_content .= '<div class="leftalign"><a href="https://twitter.com/share" class="twitter-share-button" 
                                             data-text = "'.$title.'" 
                                             data-url="'.$post_link.'" 
+				            data-counturl="'.$post_link.'"
                                             data-via="eworkgroup" 
                                             data-lang="en" 
                                             data-width = "100" 
-                                            data-related="anywhereTheJavascriptAPI" 
                                             data-count="horizantal">
                                             Tweet
                                     </a></div>';
@@ -51,6 +51,7 @@
                                     <div class="facebook-share">
                                         <div class="fb-like" 
                                             data-send="false" 
+					    data-show-faces="false" 
                                             data-href = "'.$post_link.'"
                                             data-layout="button_count" 
                                             data-width="90">
